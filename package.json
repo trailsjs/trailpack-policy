@@ -1,0 +1,35 @@
+{
+  "name": "trailpack-policy",
+  "version": "1.0.0",
+  "description": "Trailpack policy class",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trailsjs/trailpack-policy.git"
+  },
+  "keywords": [
+    "trails",
+    "trailsjs",
+    "controller"
+  ],
+  "author": "Trails.js Team <hello@trailsjs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trailsjs/trailpack-policy/issues"
+  },
+  "homepage": "https://github.com/trailsjs/trailpack-policy#readme",
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-trails": "^1.0.7",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "trails-policy": "^1.0.1"
+  }
+}
