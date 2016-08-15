@@ -1,7 +1,7 @@
 {
   "name": "trailpack-policy",
-  "version": "1.0.0",
-  "description": "Trailpack policy class",
+  "version": "1.0.1",
+  "description": "Trailpack policy class, should be used on Trailpacks modules only",
   "main": "index.js",
   "scripts": {
     "test": "eslint . && mocha"
@@ -25,11 +25,11 @@
     "extends": "trails"
   },
   "devDependencies": {
-    "eslint": "^2.13.1",
+    "eslint": "^3.3.0",
     "eslint-config-trails": "^1.0.7",
-    "mocha": "^2.5.3"
+    "mocha": "^3.0.2"
   },
   "dependencies": {
-    "trails-policy": "^1.0.1"
+    "trails-policy": "^1.0.2"
   }
 }
