@@ -1,6 +1,6 @@
 {
   "name": "trailpack-policy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trailpack policy class",
   "main": "index.js",
   "scripts": {
